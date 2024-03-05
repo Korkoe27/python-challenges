@@ -7,11 +7,11 @@
 
 
 def sortLists(list1, list2):
-    list1.sort()
-    list2.sort()
     list3 = list1+list2
     list3.sort()
     print(list3)
+
+    # return list1.sort() + list2.sort()
 
 
 sortLists([1,2,4], [1,3,4])
